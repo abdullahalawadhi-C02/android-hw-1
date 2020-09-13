@@ -1,0 +1,14 @@
+public class HelloWorld{//hello
+     public static void main(String []args){//main
+        System.out.println("Hello World");
+        int n=15;
+       String m = "abdullah";
+      System.out.println(cr(n,m));
+     }//main
+     public static String cr (int n ,String m) {//fa
+        if (n >=18){ //if 1
+       return "congratulations "+m+" you will have driving license" ; }//if 1
+   else{  //else 2
+         return "sorry " +m+ " for you will not have driving license";}
+     }//fa
+}//hello
